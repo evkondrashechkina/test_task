@@ -1,0 +1,65 @@
+﻿[
+  {
+    "Id": "666C1BCC-4686-4600-9CBE-8ACEAEB84DC4",
+    "UnitsNumber": 1,
+    "Rate": 77.0284,
+    "Date": "2020-10-17",
+    "CurrencyId": "4AF36C6C-BA0C-48EC-8397-8FDEDE42DD50"
+  },
+  {
+    "Id": "714AF9B5-FE43-4464-BD5D-D3108FCCE463",
+    "UnitsNumber": 1,
+    "Rate": 77.0239,
+    "Date": "2020-10-16",
+    "CurrencyId": "4AF36C6C-BA0C-48EC-8397-8FDEDE42DD50"
+  },
+  {
+    "Id": "724CB5AB-9CC9-4DF8-A2FC-F86E03B7C3AF",
+    "UnitsNumber": 1,
+    "Rate": 77.2285,
+    "Date": "2020-10-15",
+    "CurrencyId": "4AF36C6C-BA0C-48EC-8397-8FDEDE42DD50"
+  },
+  {
+    "Id": "10B2A7E6-C964-44A5-B9CD-DF5458694EDB",
+    "UnitsNumber": 1,
+    "Rate": 90.7163,
+    "Date": "2020-10-17",
+    "CurrencyId": "1BA24399-7E42-45B9-A1E5-A1533100D1B0"
+  },
+  {
+    "Id": "37661690-E94C-44D0-A0A1-DD9AB83C96AB",
+    "UnitsNumber": 1,
+    "Rate": 91.0037,
+    "Date": "2020-10-16",
+    "CurrencyId": "1BA24399-7E42-45B9-A1E5-A1533100D1B0"
+  },
+  {
+    "Id": "8FC034A8-D913-4F70-A635-984CD14C21AB",
+    "UnitsNumber": 1,
+    "Rate": 91.0732,
+    "Date": "2020-10-15",
+    "CurrencyId": "1BA24399-7E42-45B9-A1E5-A1533100D1B0"
+  },
+  {
+    "Id": "F46AFAF2-4CAB-4F54-8B6B-071A7164B70B",
+    "UnitsNumber": 1,
+    "Rate": 84.2854,
+    "Date": "2020-10-17",
+    "CurrencyId": "40672A95-871F-4E4C-9486-7EA55DACEF31"
+  },
+  {
+    "Id": "E704D7E0-424D-4030-BF03-DF93A6B08911",
+    "UnitsNumber": 1,
+    "Rate": 84.5209,
+    "Date": "2020-10-16",
+    "CurrencyId": "40672A95-871F-4E4C-9486-7EA55DACEF31"
+  },
+  {
+    "Id": "F69C3D00-8F2C-4242-92EF-A2791639795B",
+    "UnitsNumber": 1,
+    "Rate": 84.9105,
+    "Date": "2020-10-15",
+    "CurrencyId": "40672A95-871F-4E4C-9486-7EA55DACEF31"
+  }
+]

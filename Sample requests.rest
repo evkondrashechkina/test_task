@@ -1,0 +1,54 @@
+### Создание новой валюты
+POST http://localhost:1113/currencies
+Content-Type: application/json
+
+{
+    "Code": "ALL",
+    "Name": "Албанский лек"
+}
+### Попытка создания валюты с существующим кодом
+POST http://localhost:1113/currencies
+Content-Type: application/json
+
+{
+    "Code": "USD",
+    "Name": "Доллар Соединенных Штатов Америки"
+}
+### Получение списка валют
+GET http://localhost:1113/currencies
+### Получение только одной валюты
+GET http://localhost:1113/currencies/11bbbf0e-148a-45ca-b329-6c95864f1945
+### Удаление валюты
+DELETE http://localhost:1113/currencies/cb62c5e7-7d50-4095-989d-ec7bbddb103d
+### Изменение данных валюты
+PUT http://localhost:1113/currencies
+Content-Type: application/json
+
+{
+    "Id": "11bbbf0e-148a-45ca-b329-6c95864f1945",
+    "Code": "USD",
+    "Name": "Доллар Соединенных Штатов Америки"
+}
+### Добавление конкретного значения валюты
+POST http://localhost:1113/currencies/11bbbf0e-148a-45ca-b329-6c95864f1945/rates/
+Content-Type: application/json
+
+{
+    "Rate": 77.0288,
+    "UnitsNumber": 1,
+	"Date": "2020-10-18"
+}
+### Удаление конкретного курса валюты
+DELETE http://localhost:1113/currencies/11bbbf0e-148a-45ca-b329-6c95864f1945/rates/13e06473-0e00-48d9-b151-6de470646edd
+### Изменение данных по конкретному курсу валют
+PUT http://localhost:1113/currencies/11bbbf0e-148a-45ca-b329-6c95864f1945/rates
+Content-Type: application/json
+
+{
+    "Id": "66bba7da-df30-438c-b0e9-db961de29f8a",
+    "Rate": 76.0288,
+	"UnitsNumber": 1,
+	"Date": "2020-10-17"
+}
+### Получение конкретного значения валюты
+GET http://localhost:1113/currencies/11bbbf0e-148a-45ca-b329-6c95864f1945/rates/17bd5f15-d1c4-4e7e-bc3a-16722345fbc6
